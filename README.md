@@ -11,5 +11,6 @@
 ## How to use
  * Download the repository
  * Run it from any browser using localhost:3000
-
+## Demo 
+![Image of Recognito](https://github.com/sujanchhetri/Recognito/blob/master/recognito.png)
  
