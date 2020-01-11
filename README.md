@@ -10,6 +10,9 @@
 
 ## How to use
  * Download the repository
+ * Change the var APIAI_TOKEN =apiai(" ");
+const APIAI_SESSION_ID = " "; (can get it from API.AI site)
+* Type node index.js in the terminal
  * Run it from any browser using localhost:3000
 ## Demo 
 ![Image of Recognito](https://github.com/sujanchhetri/Recognito/blob/master/recognito.png)
