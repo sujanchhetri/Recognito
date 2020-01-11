@@ -17,3 +17,10 @@ const APIAI_SESSION_ID = " "; (can get it from API.AI site)
 ## Demo 
 ![Image of Recognito](https://github.com/sujanchhetri/Recognito/blob/master/recognito.png)
  
+ ### References
+ https://caniuse.com/#search=speech ,
+https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition ,
+https://www.npmjs.com/package/apiai ,
+https://socket.io/ ,
+https://www.npmjs.com/package/dotenv-extended ,
+https://expressjs.com/
