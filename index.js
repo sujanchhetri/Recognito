@@ -7,12 +7,12 @@ const APIAI_SESSION_ID = "chatbot-clvxfh";
 const express = require('express');
 const app = express();
 
+const port = process.env.PORT || 3000
+
 app.use(express.static(__dirname + '/views')); 
 app.use(express.static(__dirname + '/files')); 
 
-const server = app.listen(process.env.PORT || 3000, () => {
-  console.log('Server listening on port %d ', server.address().port);
-});
+
 
 const io = require('socket.io')(server);
 io.on('connection', function(socket){
@@ -49,4 +49,8 @@ io.on('connection', function(socket) {
     apiaiReq.end();
 
   });
+});
+
+app.listen(port, () => {
+  console.log('Server listening on port %d ');
 });
