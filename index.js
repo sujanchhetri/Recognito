@@ -7,7 +7,12 @@ const APIAI_SESSION_ID = "chatbot-clvxfh";
 const express = require('express');
 const app = express();
 
-const port = process.env.PORT || 3000
+const PORT = process.env.PORT || 3000
+
+app.listen(
+  PORT,
+  console.log(`Server is running at port ${PORT}`)
+)
 
 app.use(express.static(__dirname + '/views')); 
 app.use(express.static(__dirname + '/files')); 
@@ -51,6 +56,4 @@ io.on('connection', function(socket) {
   });
 });
 
-app.listen(port, () => {
-  console.log('Server listening on port %d ');
-});
+
