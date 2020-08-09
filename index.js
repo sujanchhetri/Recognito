@@ -1,8 +1,8 @@
 'use strict';
 
 var apiai = require('apiai');
-var APIAI_TOKEN =apiai("21324841564sad5sa4ds5412");
-const APIAI_SESSION_ID = "chatbot-asdsaads";
+var APIAI_TOKEN =apiai("5afc4bdf601046b39972ff3866cca392");
+const APIAI_SESSION_ID = "chatbot-clvxfh";
 
 const express = require('express');
 const app = express();
