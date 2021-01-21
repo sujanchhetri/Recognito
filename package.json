@@ -13,6 +13,6 @@
     "apiai": "^4.0.3",
     "dotenv-extended": "^2.7.1",
     "express": "^4.17.1",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.4.0"
   }
 }
